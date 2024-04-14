@@ -1,7 +1,10 @@
+import ModalContainer from "./component/Ref Dialog/ModalContainer";
+
 const App = () => {
   return (
     <div>
-      <h1>check</h1>
+      {/* modal Dialog Practice using ref and forwardRef */}
+      <ModalContainer />
     </div>
   );
 };
