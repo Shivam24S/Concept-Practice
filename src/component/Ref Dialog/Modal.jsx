@@ -1,7 +1,9 @@
-const Modal = ({ refVal }) => {
+import { forwardRef } from "react";
+
+const Modal = forwardRef((props, ref) => {
   return (
     <>
-      <dialog ref={refVal}>
+      <dialog ref={ref}>
         hi there 🙋🏻‍♂️
         <br />
         <form method="dialog">
@@ -10,6 +12,6 @@ const Modal = ({ refVal }) => {
       </dialog>
     </>
   );
-};
+});
 
 export default Modal;
