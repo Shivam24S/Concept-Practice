@@ -6,7 +6,7 @@
 
 // import AxiosContainer from "./component/HTTP Request/AxiosContainer";
 
-import CustomHookContainer from "./component/CustomeHook/CustomHookContainer";
+// import CustomHookContainer from "./component/CustomeHook/CustomHookContainer";
 
 const App = () => {
   return (
@@ -22,7 +22,9 @@ const App = () => {
       {/* <AxiosContainer /> */}
 
       {/* fetching Data using customHook */}
-      <CustomHookContainer />
+      {/* <CustomHookContainer /> */}
+
+      {/* React Redux Tool kit Crud App */}
     </div>
   );
 };
