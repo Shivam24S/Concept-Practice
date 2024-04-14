@@ -6,6 +6,8 @@
 
 // import AxiosContainer from "./component/HTTP Request/AxiosContainer";
 
+import CustomHookContainer from "./component/CustomeHook/CustomHookContainer";
+
 const App = () => {
   return (
     <div>
@@ -20,6 +22,7 @@ const App = () => {
       {/* <AxiosContainer /> */}
 
       {/* fetching Data using customHook */}
+      <CustomHookContainer />
     </div>
   );
 };
