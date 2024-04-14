@@ -1,6 +1,6 @@
 // import ModalContainer from "./component/Ref Dialog/ModalContainer";
 
-import HTTP from "./component/HTTP Request/HTTP";
+import FetchContainer from "./component/HTTP Request/FetchContainer";
 
 // import TodoCtxContainer from "./component/Context Crud/TodoContainer";
 
@@ -14,7 +14,7 @@ const App = () => {
       {/* <TodoCtxContainer /> */}
 
       {/* HTTP Request using fetch API And Axios  */}
-      <HTTP />
+      <FetchContainer />
     </div>
   );
 };
