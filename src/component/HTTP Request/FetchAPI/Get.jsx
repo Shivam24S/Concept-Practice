@@ -4,6 +4,7 @@ const Get = () => {
   const [userName, setUserName] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
+  const [fetching, setFetching] = useState(false);
 
   useEffect(() => {
     async function FetchData() {
@@ -24,11 +25,16 @@ const Get = () => {
         setError(error);
       }
     }
-    FetchData();
-  }, []);
+    fetching ? FetchData() : null;
+  }, [fetching]);
+
+  const handleGetUser = () => {
+    setFetching(true);
+  };
 
   return (
     <>
+      <button onClick={handleGetUser}>Get UserName</button>
       {isLoading && <h5>Loading....</h5>}
 
       {error && <h6>Failed To Load Data</h6>}
