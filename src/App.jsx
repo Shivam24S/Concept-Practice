@@ -1,8 +1,10 @@
 // import ModalContainer from "./component/Ref Dialog/ModalContainer";
 
-import FetchContainer from "./component/HTTP Request/FetchContainer";
-
 // import TodoCtxContainer from "./component/Context Crud/TodoContainer";
+
+// import FetchContainer from "./component/HTTP Request/FetchContainer";
+
+import AxiosContainer from "./component/HTTP Request/AxiosContainer";
 
 const App = () => {
   return (
@@ -14,7 +16,8 @@ const App = () => {
       {/* <TodoCtxContainer /> */}
 
       {/* HTTP Request using fetch API And Axios  */}
-      <FetchContainer />
+      {/* <FetchContainer /> */}
+      <AxiosContainer />
     </div>
   );
 };
