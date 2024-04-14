@@ -4,7 +4,7 @@
 
 // import FetchContainer from "./component/HTTP Request/FetchContainer";
 
-import AxiosContainer from "./component/HTTP Request/AxiosContainer";
+// import AxiosContainer from "./component/HTTP Request/AxiosContainer";
 
 const App = () => {
   return (
@@ -17,7 +17,9 @@ const App = () => {
 
       {/* HTTP Request using fetch API And Axios  */}
       {/* <FetchContainer /> */}
-      <AxiosContainer />
+      {/* <AxiosContainer /> */}
+
+      {/* fetching Data using customHook */}
     </div>
   );
 };
